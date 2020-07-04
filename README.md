@@ -18,12 +18,19 @@
 
 - Vá em Run As, Após Run Configurations, clique sobre o microserviço product-service no canto esquerdo da janela, clique na aba Argtuments.
 
-- Em Vm Arguments insira -Dserver.port=9001 e clique em Run
+- Em Vm Arguments insira `-Dserver.port=9001` e clique em Run
 
 - Após entre novamente no mesmo caminho e retire o comando anterior e clique em Run
 
-- Os microservicos estaram rodando nas portas 8001 e 9001
+- Os microservicos estaram rodando nas portas `8001 e 9001`
 
 ### Rodar microservico item-service:
 
 - Clique sobre o projeto, va em Run As e clique em Spring Boot App
+
+## Utilização da Aplicação:
+
+- Para mostrar todos os produtos acesse a seguinte URL: `http://localhost:8002/findAll`
+
+- Para mostrar um item especifico acesse: `http://localhost:8001/findById/[id]` , sendo que no lugar de id deve ser inserido o id do respectivo produto.
+

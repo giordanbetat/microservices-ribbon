@@ -8,7 +8,7 @@
 
 - Um dos objetivos do desenvolvimento dos dois microservicos é demonstrar a diferença entre a utilização de RestTemplate e o Feign.
 
-- Além disso, outos dos objetivos é demonstrar a utilização do Ribbon no balanceamento de carga dos microservicos.
+- Além disso, outo dos objetivos é demonstrar a utilização do Ribbon no balanceamento de carga dos microservicos.
 
 - Obs.: Rodar o microserviço product-service 2 vezes, em portas distintas.
 
